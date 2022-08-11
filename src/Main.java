@@ -16,7 +16,7 @@ public class Main {
             public int compare(String o1, String o2) {
 
                 if (o1.length() > o2.length() && o1.length() > 2 ||
-                        o1.length() == o2.length() && o1.compareTo(o2) < 0) {
+                        o1.length() == o2.length() && o1.compareTo(o2) > 0) {
                     return 1;
                 } else if (o1.length() == o2.length() && o1.compareTo(o2) == 0) {
                     return 0;
